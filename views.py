@@ -3,7 +3,6 @@ from typing import TYPE_CHECKING
 if TYPE_CHECKING:
     from controller import Controller
 
-from Pyside6 import QWidgets
 
 class View:
     def __init__(self):
@@ -43,6 +42,3 @@ Options:
 
     def input_patient_note(self):
         return input("Enter patient note:")
-
-
-class ViewPyside()
